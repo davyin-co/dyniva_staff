@@ -1,0 +1,17 @@
+uuid: 0febd835-74d9-477a-a8e8-d847baafc8d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Staff
+type: staff
+description: 'A basic content to storage teh staff information.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

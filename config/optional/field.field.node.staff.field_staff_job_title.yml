@@ -1,0 +1,29 @@
+uuid: 5259935b-5ca3-4e27-bcd3-d0d84df6f5e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_staff_job_title
+    - node.type.staff
+    - taxonomy.vocabulary.staff_job_title
+id: node.staff.field_staff_job_title
+field_name: field_staff_job_title
+entity_type: node
+bundle: staff
+label: 'Job Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      staff_job_title: staff_job_title
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

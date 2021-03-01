@@ -1,0 +1,8 @@
+uuid: 00cf87c4-455b-465d-bd3f-2a47fdec3cce
+langcode: en
+status: true
+dependencies: {  }
+name: 'Staff job title'
+vid: staff_job_title
+description: ''
+weight: 0
