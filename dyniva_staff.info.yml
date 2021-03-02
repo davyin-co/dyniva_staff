@@ -5,7 +5,6 @@ package: Dyniva
 core: 8.x
 dependencies:
   - datetime_range
-  - entity_browser
   - field
   - field_group
   - views_add_button
