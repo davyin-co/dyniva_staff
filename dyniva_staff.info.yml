@@ -13,4 +13,6 @@ dependencies:
   - path
   - taxonomy
   - text
+  - content_translation
+  - language
   - user
